@@ -1,7 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap");
 * {
   box-sizing: border-box;
 }
 .intro {
   background-image: url("/assets/backgrounds/h_img.jpg");
   background-size: cover;
+  height: 500px;
+}
+.intro h1,
+.intro p {
+  position: relative;
+  top: 20%;
+  display: block;
+}
+
+.about-us {
+  height: 250 px;
+}
+
+.about-us h2,
+.about-us p {
+  margin-top: 15px;
+}
+.services {
+  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-size: cover;
+  height: 300px;
 }
