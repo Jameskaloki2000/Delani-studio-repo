@@ -27,3 +27,28 @@
   background-size: cover;
   height: 300px;
 }
+#contacts {
+  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  height: 500px;
+  
+}
+ .formcontent {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
+margin: auto;
+}
+/* .formgroup {
+  /* margin-bottom: 20px; */
+  /* margin: auto; */
+/* } */
+/* .formcontent {
+  position: absolute;
+  left: 30%;
+  top: 15%;
+}
+
+#contacts textarea {
+  height: 200px; */
+/* } */ */
