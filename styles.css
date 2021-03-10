@@ -1,19 +1,168 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap");
 * {
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.intro {
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 668px;
+}
+
+.overlay > img,
+.h-text {
+  position: relative;
+  top: 33%;
+}
+.h-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.smaller-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.overlay > img,
+.welcome {
+  margin-bottom: 30px;
+}
+
+.click {
+  margin-top: 330px;
+}
+
+.jumbotron-fluid {
   background-image: url("/assets/backgrounds/h_img.jpg");
   background-size: cover;
-  height: 500px;
+  height: 668px;
 }
-#contacts {
+#bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
+
+.aboutUs {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.landing h1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+#about,
+#service,
+#pple,
+.specific,
+#contact,
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col-md-12 {
+  width: 100%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(1vw + 1vh + 0.5vmin);
+  font-size: 1.1em;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#service {
+  background-image: url("/assets/backgrounds/h_img.jpg");
+  color: #fff;
+  margin-bottom: 50px;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.card-deck {
+  padding: 1% 4%;
+}
+.specific {
+  margin-bottom: 4%;
+}
+.image1 {
+  padding-top: 9%;
+  margin-bottom: 3%;
+}
+.image2 {
+  margin-top: 20%;
+  padding: 35px 0;
+}
+.sermain {
+  margin-top: 15%;
+}
+.design-text,
+.developer-text,
+.product-text {
+  display: none;
+}
+#form {
   background-image: url("/assets/backgrounds/c_image.jpg");
-  background-size: cover;
-  height: 300px;
 }
-.services {
-  background-image: url("/assets/backgrounds/s_image.jpg");
-  background-size: cover;
-  height: 200px;
+.input {
+  display: inline;
+}
+#form input {
+  width: 35%;
+  background-color: transparent;
+}
+#name {
+  margin-left: 12%;
+  color: white;
+}
+#email {
+  margin-left: 5%;
+  color: white;
+}
+#form textarea {
+  background-color: transparent;
+  color: white;
+}
+#email::placeholder {
+  color: white;
+}
+
+#name::placeholder {
+  color: white;
+}
+textarea::placeholder {
+  color: white;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-c {
+  text-align: center;
+  padding-top: 3%;
+}
+.image {
+  position: relative;
+}
+.porttext {
+  position: absolute;
+  text-align: center;
+  z-index: 30;
 }

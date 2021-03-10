@@ -11,174 +11,173 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-
+   
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <title>Document</title>
   </head>
   <header>
     <section class="container-fluid">
-      <div class="intro jumbotron-fluid col-md-12">
-        <img
-          src="/assets/logo/logo.png"
-          alt="logo"
-          class="mx-auto img-fluid d-block"
-        />
-        <h1 class="page-header text-white text-center welcome">
-          WELCOME <br />TO DELANI STUDIO
-        </h1>
-        <p class="text-center text-white smaller-text">
-          AMAZING PEOPLE ARE MAKING AMZING DECISION IN A FUN ENVIRONMENT
-        </p>
-        <div>
-          <a href="#about"
-            ><img
-              src="/assets/mouse_click.png"
-              class="mx-auto logo d-block click"
-              alt="mouse click"
-              id="mouse"
-          /></a>
+      
+        <div class="jumbotron-fluid">
+          <div class="overlay">
+            <img src="/assets/logo/logo.png" alt="logo" class="mx-auto d-block">
+            <h1 class="text-white text-center welcome h-text">Welcome</h1>
+            <h1 class="text-white text-center delani h-text">TO DELANI STUDIO</h1>
+            <h6 class="text-white text-center text h-text smaller-text">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN
+                ENVIRONMENT</h6>
+            <a href="#about"><img src="/assets/mouse_click.png" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
         </div>
-      </div>
     </section>
   </header>
   <body>
-    <section class="container-fluid about-us">
-      <h2 class="text-center">ABOUT US</h2>
-      <p>
-        clas§ Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        neque cumque, delectus, unde ullam et doloremque sunt adipisci ad eum
-        fugiat ipsam rerum quas, magnam tenetur eius odit eveniet eos! Incidunt
-        quasi fugit aperiam. Nostrum minima totam magnam necessitatibus vero
-        illum eligendi, perferendis animi ipsam molestias hic veniam saepe
-        temporibus, nemo illo suscipit cum laboriosam rerum, iusto officiis
-        earum natus! Quasi ea illum reiciendis suscipit obcaecati, atque beatae
-        ut adipisci esse amet voluptatum tenetur aliquam deleniti vel architecto
-        temporibus quisquam tempore nemo tempora at et doloremque corrupti?
-        Placeat, et vero.
-      </p>
-    </section>
-    <section class="container-fluid services">
-      <h2 class="text-center">SERVICES</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et
-        nobis eos magni fugit tenetur illo sint ad ipsam error itaque, quod aut
-        dicta corrupti est sequi aperiam! Ipsam, dolores?
-      </p>
-    </section>
-    <section class="container-fluid what-we-do">
-      <h2 class="text-center">WHAT WE DO</h2>
-      <div>
-        <i></i>
-        <i></i>
-        <i></i>
+    <section id="about">
+      <div class="aboutUs">
+        <h2>ABOUT US</h2>
+        <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, interactive <br> and agile.</p>
+        <p>Our approach unifies, development and product management to create expectational products.</p>
+        <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>
+        <p>Then we help translate them into effective and elegant solutions.</p>
       </div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+      
+    
+    </section>
+    <section id="service">
+      <div class="container specific ">
+        <h1 class=" text-center text-dark what ">What we do</h1>
+        <div class="row text-center">
+            <div class="col-md-4 main">
+                <img src="/assets/services_icons/design_icon.png" class="show img-fluid icon1">
+                <h5 class="text-dark"><strong>DESIGN</strong></h5>
+                <div class=" design-text">
+                    <p> Our design practice offers a full range of services including brand strategy,interaction and
+                        visual design and user experience testing.</p>
+                    <p>Throughout yuor project,our designers create and implement visual design and workflows,solicit
+                        user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+            </div>
+            <div class="col-md-4 main">
+                <img src="/assets/services_icons/dev_icon.png" class="show img-fluid icon2">
+                <h5 class="text-dark"><strong>DEVELOPMENT</strong></h5>
+                <div class=" developer-text">
+                    <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
+                        collaborate with your team to write, and improve code on a daily basis, using proven practices
+                        such as test-driven development and pair programming. </P>
+                </div>
+            </div>
+            <div class="col-md-4 main">
+                <img src="/assets/services_icons/product_icon.png" class="show img-fluid icon3">
+                <h5 class="text-dark"><strong>PRODUCT MANAGEMENT</strong></h5>
+                <div class= "product-text">
+                    <p>Planning and development is iterative. Because we are constantly coding and testing, the products
+                        we build are always ready to go live. This iterative process allows for changes as business
+                        requirements evolve.</p>
+                </div>
+            </div>
+        </div>
       </div>
     </section>
-    <section class="container-fluid" id="contacts">
-      <h3 class="text-center heading-h3 text-white">CONTACT US</h3>
-
-      <form action="" class="form-cont">
-        <input
-          type="text"
-          name=""
-          id="name"
-          placeholder="Enter Name"
-          required
-        />
-        <input type="email" name="" id="" placeholder="Enter Email" required />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Enter Message"
-        ></textarea
-        ><br />
-        <button type="submit " class="btn btn-primary">Submit</button>
+   <section id="portfolio">
+    <div class="portfolio container-fluid">
+      <br><br><br>
+      <h1 class="text-center b-text">PORTFOLIO</h1><br>
+      <div class="col-md-12 mx-auto">
+          <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work1.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div>
+                          <div class="porttext" style="display:none"> Delani Studio</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work2.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div>
+                          <div class="porttext" style="display:none">Delani Studio</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work3.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div>
+                          <div class="porttext" style="display:none">Delani Studio</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work4.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div class="disc1">
+                          <div class="porttext" style="display:none">Delani Studio</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+          <br>
+          <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work5.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div class="porttext" style="display:none">Delani Studio</div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work6.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div class="porttext" style="display:none">Delani Studio</div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work7.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div class="porttext" style="display:none">Delani Studio</div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div class="portimg">
+                      <img src="/assets/portfolio/work8.jpg" alt="portfolio-images" class="image img-fluid">
+                      <div class="porttext" style="display:none">Delani Studio</div>
+                  </div>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+   </section>
+   <section id="contactus">
+    <div class="container-fluid mt-5 text-center pb-5 text-white" id="form">
+      <h2 class="pt-5">CONTACT US</h2>
+      <form class="text-white" id="form1">
+        <div class="form-group form-inline">
+          <input type="text" class="form-control input" id="name" placeholder="Name..." required>
+          <input type="email" class="form-control input" id="email" placeholder="name@email.com" required>
+        </div>
+        <textarea name="name" rows="8" cols="100" id="message" placeholder="Your message here..."></textarea>
+        <input type="submit" value="submit" class="text-white">
       </form>
-    </section>
-    <section class="links text-center">
-      <div class="text-center social_icons">
-        <a href="https://www.behance.net/" target="_blank"
-          ><img
-            src="/assets/social_icons/behance.png"
-            class="all"
-            alt=""
-            srcset=""
-        /></a>
-        <a href="https://dribbble.com/" target="_blank"
-          ><img
-            src="/assets/social_icons/dribble.png"
-            class="all"
-            alt=""
-            srcset=""
-        /></a>
-        <a href="https://www.facebook.com/" target="_blank"
-          ><img
-            src="/assets/social_icons/facebook.png"
-            class="all"
-            alt=""
-            srcset=""
-        /></a>
-        <a href="https://www.flickr.com/" target="_blank"
-          ><img
-            src="/assets/social_icons/flickr.png"
-            class="all"
-            alt=""
-            srcset=""
-        /></a>
-        <a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"
-          ><img
-            src="/assets/social_icons/g_plus.png"
-            class="all"
-            alt=""
-            srcset=""
-        /></a>
-        <img src="/assets/social_icons/" class="all" alt="" srcset="" />
+    </div>
+   </section>
 
-        <a href="www.skype.com">
-          <img
-            src="/assets/social_icons/skype.png"
-            alt=""
-            class="all"
-            srcset=""
-        /></a>
-        <a href="www.stumble.com"
-          ><img
-            src="/assets/social_icons/stumble_upon.png"
-            class="all"
-            alt=""
-            srcset=""
-          />
-        </a>
-        <a href="www.twitter.com">
-          <img
-            src="/assets/social_icons/twitter.png"
-            alt=""
-            class="all"
-            srcset=""
-        /></a>
-        <a href="www.youtube.com">
-          <img
-            src="/assets/social_icons/you_tube.png"
-            alt=""
-            class="all"
-            srcset=""
-        /></a>
+  <section class="social">
+    <div class="container  foot-c">
+      <img src="assets/social_icons/behance.png" alt="behance" class="img-fluid">
+      <img src="assets/social_icons/flickr.png" alt="flickr" class="img-fluid">
+      <img src="assets/social_icons/facebook.png" alt="facebook" class="img-fluid">
+      <img src="assets/social_icons/dribble.png" alt="dribble" class="img-fluid">
+      <img src="assets/social_icons/g_plus.png" alt="g_plus" class="img-fluid">
+      <img src="assets/social_icons/pinterest.png" alt="pinterest" class="img-fluid">
+      <img src="assets/social_icons/skype.png" alt="skype" class="img-fluid">
+      <img src="assets/social_icons/twitter.png" alt="twitter" class="img-fluid">
+      <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon" class="img-fluid">
+      <img src="assets/social_icons/you_tube.png" alt="you_tube" class="img-fluid">
+      <div>
+          delani studios <br>
+          2019
       </div>
-    </section>
-    <footer>
-      <div class="footer text-center">
-        <p class="text-center">DELANI STUDIO <br />2021</p>
-      </div>
-    </footer>
-  </body>
-</html>
+  </div>
+  <script src="script.js"></script>
+  
+  </section>
