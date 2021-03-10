@@ -99,7 +99,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 
-  background-image: url("/assets/backgrounds/h_img.jpg");
+  background-image: url("/assets/backgrounds/s_image.jpg");
   color: #fff;
   margin-bottom: 50px;
   background-position: center;
@@ -174,4 +174,9 @@ textarea::placeholder {
   position: absolute;
   text-align: center;
   z-index: 30;
+}
+.text-large {
+  font-weight: 100;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
 }
