@@ -8,7 +8,7 @@
 * Clone this repository to code editor of choice
 
 {This code does not depend on any other code to run and has two Javascript files each with different ways of implementing the logic}
-{link to website inculded here}
+{link to website inculded here https://jameskaloki2000.github.io/Delani-studio-repo/.}
 
 ## Technologies Used
 {HTML,CSS and ES6 Javascript }
