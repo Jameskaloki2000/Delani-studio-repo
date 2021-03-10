@@ -8,6 +8,7 @@
 * Clone this repository to code editor of choice
 
 {This code does not depend on any other code to run and has two Javascript files each with different ways of implementing the logic}
+{link to website inculded here}
 
 ## Technologies Used
 {HTML,CSS and ES6 Javascript }
