@@ -38,5 +38,23 @@ $(function () {
     productText.hide();
   });
   //OVERLAYING IMAGES
-  image.hover(function () {});
+  $(".portimg").hover(
+    function () {
+      $(".porttext", this).slideToggle("slow");
+    },
+    function () {
+      $(".porttext", this).slideToggle("slow");
+    }
+  );
+  <script id="mcjs">
+    !function(c,h,i,m,p)
+    {
+      ((m = c.createElement(h)),
+      (p = c.getElementsByTagName(h)[0]),
+      (m.async = 1),
+      (m.src = i),
+      p.parentNode.insertBefore(m, p))
+    }
+    (document,"script","https://chimpstatic.com/mcjs-connected/js/users/09b9e0197bc3049386ad3a6c0/13eb28844ecfb869a31515054.js");
+  </script>;
 });

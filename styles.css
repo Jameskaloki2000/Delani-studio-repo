@@ -130,6 +130,7 @@ h1 {
 }
 #form {
   background-image: url("/assets/backgrounds/c_image.jpg");
+  background-size: cover;
 }
 .input {
   display: inline;
