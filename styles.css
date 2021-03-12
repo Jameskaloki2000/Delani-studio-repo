@@ -36,7 +36,7 @@
 }
 
 .jumbotron-fluid {
-  background-image: url("/assets/backgrounds/h_img.jpg");
+  background-image: url("assets/backgrounds/h_img.jpg");
   background-size: cover;
   height: 668px;
 }
@@ -99,7 +99,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 
-  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-image: url("assets/backgrounds/s_image.jpg");
   color: #fff;
   margin-bottom: 50px;
   background-position: center;
@@ -129,7 +129,7 @@ h1 {
   display: none;
 }
 #form {
-  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-image: url("assets/backgrounds/c_image.jpg");
   background-size: cover;
 }
 .input {
